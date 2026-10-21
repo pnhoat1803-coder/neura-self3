@@ -5,7 +5,7 @@
     },
     "autoVote": {
         "enabled": true,
-        "loginMode": false,
+        "loginMode": true,
         "headless": true,
         "targetLinks": [
             "https://top.gg/bot/408785106942164992/vote"
