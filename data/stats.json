@@ -1,0 +1,36 @@
+{
+    "970542038883901450": {
+        "last_reset_date": "2026-09-20",
+        "captchas_solved": 907,
+        "bans_detected": 0,
+        "warnings_detected": 232,
+        "hunt_count": 0,
+        "battle_count": 0,
+        "owo_count": 0,
+        "total_cmd_count": 3,
+        "other_count": 3,
+        "gems_used": 0,
+        "username": "pumpkin131z",
+        "quest_data": [
+            {
+                "description": "-# level: `4`/`100`",
+                "current": 0,
+                "total": 1,
+                "completed": false
+            }
+        ],
+        "next_quest_timer": null,
+        "current_cash": 271314,
+        "gambling_stats": {
+            "total_wins": 0,
+            "total_losses": 2,
+            "total_wagered": 3,
+            "net_profit": -3,
+            "current_streak": -2,
+            "best_streak": 0,
+            "worst_streak": -2,
+            "biggest_win": 0,
+            "last_outcome": "loss"
+        }
+    }
+}
