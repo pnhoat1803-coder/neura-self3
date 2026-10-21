@@ -13,7 +13,7 @@
     },
     "commands": {
         "owo": {
-            "enabled": true,
+            "enabled": false,
             "cooldown": [
                 10,
                 13
@@ -24,7 +24,7 @@
             "use_shortform": true,
             "cooldown": [
                 15,
-                18
+                17
             ]
         },
         "battle": {
@@ -32,7 +32,7 @@
             "use_shortform": true,
             "cooldown": [
                 15,
-                18
+                17
             ]
         },
         "curse": {
@@ -47,7 +47,7 @@
             ]
         },
         "pray": {
-            "enabled": true,
+            "enabled": false,
             "cooldown": [
                 310,
                 400
@@ -93,7 +93,7 @@
             }
         },
         "gems": {
-            "enabled": true,
+            "enabled": false,
             "interval": [
                 15,
                 20
@@ -119,7 +119,7 @@
             "use_gems_set": true
         },
         "giveaway": {
-            "enabled": true,
+            "enabled": false,
             "channels": [
                 1099453684691243098,
                 1168797748343099444,
@@ -155,13 +155,13 @@
             }
         },
         "quest": {
-            "enabled": true,
+            "enabled": false,
             "auto_solve": true,
             "use_alt_account": true,
             "interval_h": 6
         },
         "rpp": {
-            "enabled": true,
+            "enabled": false,
             "active_commands": [
                 "run",
                 "pup",
@@ -170,7 +170,7 @@
             "interval_s": 60
         },
         "shop": {
-            "enabled": true,
+            "enabled": false,
             "itemsToBuy": 1,
             "cooldown": 3600
         },
@@ -179,23 +179,31 @@
             "join_chance": 100,
             "join_all_guilds": false,
             "ignore_guilds": [],
-            "allowed_guilds": [],
+            "allowed_guilds": [
+                559475774441259008,
+                420104212895105044
+            ],
             "all_in_enabled": false,
-            "all_in_guilds": []
+            "all_in_guilds": [],
+            "enable_boss_channel": true,
+            "boss_channel": [
+                1412234015578132511,
+                1463009600067604602
+            ]
         }
     },
     "stealth": {
         "typing_enabled": true,
-        "speed_preset": "slow",
+        "speed_preset": "fast",
         "speed_custom": {
             "enabled": true,
-            "reaction_min": 0.5,
-            "reaction_max": 1,
-            "key_delay_min": 0.3,
-            "key_delay_max": 0.9,
-            "mistake_rate": 100,
+            "reaction_min": 0.2,
+            "reaction_max": 0.3,
+            "key_delay_min": 0.2,
+            "key_delay_max": 0.3,
+            "mistake_rate": 0,
             "enter_delay_min": 0.1,
-            "enter_delay_max": 0.4
+            "enter_delay_max": 0.3
         },
         "human_break": {
             "enabled": true,
@@ -220,9 +228,9 @@
             "tiered": true,
             "tier_retries": 3,
             "service": "tiered",
-            "yescaptcha_api_key": "",
+            "yescaptcha_api_key": "23d2d88f7f8eabbe7b03149b9abdeb0d8d12cfcf134223",
             "nopecha_api_key": "",
-            "captchaly_api_key": "",
+            "captchaly_api_key": "CP_HSbUPKNSiuEBkfg7yEMar7yXNHThZgNF6uXeViRVeF5A",
             "anticaptcha_api_key": ""
         },
         "open_captcha_url_on_pc": true,
@@ -255,14 +263,8 @@
             "url": "Your-own-discord-webhook-put-here-important-for-securtiy-alert-and-must-on-hosting"
         }
     },
-    "boss": {
-        "enabled": true,
-        "ignore_guilds": [],
-        "join_all_guilds": false,
-        "join_chance": 100
-    },
     "level_grind": {
-        "enabled": false,
+        "enabled": true,
         "cooldown": [
             60,
             90
@@ -272,7 +274,7 @@
     },
     "utilities": {
         "autochannel": {
-            "enabled": true,
+            "enabled": false,
             "cooldown": [
                 500,
                 650
