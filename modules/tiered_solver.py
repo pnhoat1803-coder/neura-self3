@@ -51,7 +51,7 @@ class TieredCaptchaSolver:
     MIN_BALANCE = {
         "nopecha": 1,
         "yescaptcha": 30,
-        "captchaly": 0.005,
+        "captchaly": 0.0009,
         "anticaptcha": 0.5,
     }
 
